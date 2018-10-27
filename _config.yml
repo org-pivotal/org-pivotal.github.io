@@ -1,6 +1,8 @@
 title: org-pivotal
 description: org-pivotal is an emacs minor mode to extend org-mode with Pivotal Tracker abilities
 repository: org-pivotal/org-pivotal
+github:
+  repository_url: https://github.com/org-pivotal/org-pivotal
 
 # Build settings
 markdown: kramdown
