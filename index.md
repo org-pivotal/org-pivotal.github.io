@@ -9,14 +9,6 @@ org-pivotal is a utility to extend org-mode with Pivotal Tracker abilities
 ## Screen shots
 ![Screen shot](./assets/screen_shot.png)
 
-## Installing
-You will need Emacs 26.1+, =make= and [Cask](https://github.com/cask/cask) to build the project.
-
-``` sh
-$ cd org-pivotal
-$ make && make install
-```
-
 ## Initial setup
 Before using the tracker you must setup your pivotal API key in Emacs. You can obtain the key from the [Profile](https://www.pivotaltracker.com/profile) link in the Pivotal Tracker web application.
 
@@ -41,7 +33,7 @@ To enable this package automatically after opening org-mode, add this line to yo
 ## Keybindings
 
 | Keybindings        | Interactive commands                                | Description                                   |
-|--------------------+-----------------------------------------------------+-----------------------------------------------|
+|--------------------|-----------------------------------------------------|-----------------------------------------------|
 | <kbd>C-c ( i</kbd> | <kbd>M-x org-pivotal-install-project-metadata</kbd> | Install selected project's metadata to buffer |
 | <kbd>C-c ( f</kbd> | <kbd>M-x org-pivotal-pull-stories</kbd>             | Pull stories to org buffer                    |
 | <kbd>C-c ( p</kbd> | <kbd>M-x org-pivotal-push-story</kbd>               | Push current story to Pivotal                 |
